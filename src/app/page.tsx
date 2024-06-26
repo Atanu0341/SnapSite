@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import React from "react";
 import { AuroraBackground } from "@/components/ui/aurora-background";
 import Link from "next/link";
+import Footer from "@/components/shared/footer";
 
 export default function AuroraBackgroundDemo() {
   return (
@@ -29,6 +30,7 @@ export default function AuroraBackgroundDemo() {
             Paste URL
           </button>
         </Link>
+        <Footer />
       </motion.div>
     </AuroraBackground>
   );
