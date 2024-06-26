@@ -13,6 +13,7 @@ export function BackgroundBeamsDemo() {
 
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault()
+        setLoading(true)
         const url = (e.currentTarget[0] as HTMLInputElement).value;
         const res = await fetch(`https://api.apiflash.com/v1/urltoimage?access_key=${accessKey}&url=${url}&width=1380&height=776&quality=100&no_cookie_banners=true&no_ads=true&no_tracking=true`)
 
