@@ -1,3 +1,9 @@
+# SnapSite v.1.0
+
+SnapSite is a web application that enables users to take screenshots of any website and download them. Simply enter the URL of the website you want to capture, click on the "Snap" button, and voilà!
+
+![SnapSite Screenshot](https://postimg.cc/ZBV1Kr8f)
+
 ## Live Demo
 
 Check out the live demo of SnapSite [here](https://snap-site.vercel.app/).
